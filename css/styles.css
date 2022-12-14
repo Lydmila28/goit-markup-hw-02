@@ -1,0 +1,54 @@
+:root {
+    --color-primary:#212121;
+    --color-secondary:#757575;
+    --color-accent:#2196F3;
+    --color-white:#FFFFFF;
+}
+body {
+background-color: #F5F5F5;
+color: var(--color-primary);
+}
+.list {
+    list-style: none;
+}
+/* site-nav */
+ .logo {
+    color:#000000; 
+}
+.logo-web {
+    color:var(--color-accent);
+    }
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:var(--color-accent);
+}
+.contacts .mail:hover, 
+.contacts .mail:focus {
+    color:var(--color-accent);  
+}
+.contacts .tel:hover, 
+.contacts .tel:focus {
+    color:var(--color-accent);  
+}
+ 
+/* Hero */
+.hero {
+    background-color:#2F303A;
+}
+.hero-title {
+    color: var(--color-white);
+}
+.button {
+    background-color:var(--color-accent);
+    color:var(--color-white);
+}
+
+.work-title, .team-title {
+    color: ;
+}
+/* Основний колір #212121 */
+/* Колір абзаців #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* додатковий колір фону  #F5F4FA*/
